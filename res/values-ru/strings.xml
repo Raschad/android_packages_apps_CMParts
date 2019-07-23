@@ -534,7 +534,12 @@
 
     <string name="gesture_settings_title">Жесты</string>
     <string name="gesture_settings_info">Панель навигации должна быть отключена!\n\nДоступные жесты:\n\n«Назад»\n- смахивание вверх слева или справа\n\n«Домой»\n- смахивание вверх по центру экрана\n\n«Недавние приложения»\n- смахивание вверх по центру экрана и удержание\n\Долгое нажатие «Домой»\n- Короткое смахивание вверх и удержание в центре</string>
+    <string name="gesture_settings_info_new">Панель навигации должна быть отключена!\n\nДоступные жесты:\n\n«Назад»\n- смахивание вверх слева или справа\n\n«Домой»\n- смахивание вверх по центру экрана\n\n«Недавние приложения»\n- смахивание вверх по центру экрана и удержание\n\n«Последнее приложение»\n- Короткое смахивание вверх и удержание</string>
     <string name="use_bottom_gesture_title">Жесты навигации</string>
     <string name="use_bottom_gesture_summary">Использование жестов свайп вверх для навигации</string>
+    <string name="gesture_swipe_length_title">Высота области жестов</string>
+    <string name="gesture_swipe_length_summary">Необходимая высота снизу для работы с жестами</string>
+    <string name="gesture_action_timeout_title">Время обработки жеста</string>
+    <string name="gesture_action_timeout_summary">Время ожидания до начала выполнения жест</string>
 
 </resources>
