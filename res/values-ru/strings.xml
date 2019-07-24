@@ -531,4 +531,15 @@
     <string name="touchscreen_gesture_action_next_track">Перейти к следующему треку</string>
     <string name="touchscreen_gesture_action_volume_down">Уменьшить громкость</string>
     <string name="touchscreen_gesture_action_volume_up">Увеличить громкость</string>
+
+    <!-- Edge gestures -->
+    <string name="edge_gestures_title">Edge</string>
+    <string name="edge_gestures_feedback_duration_title">Длительность отдачи</string>
+    <string name="edge_gestures_long_press_delay_title">Задержка длительного нажатия</string>
+    <string name="edge_gestures_back_category_title">Жест Назад</string>
+    <string name="edge_gestures_back_edges_title">Жест назад с края</string>
+    <string name="edge_gestures_landscape_back_edges_title">Жест назад в ландшафте с края</string>
+    <string name="edge_gestures_back_screen_percent_title">Жест назад начинается ниже этого % от экрана</string>
+    <string name="edge_gestures_back_screen_percent_summary">Рабочее поле: ниже чем % от экрана</string>
+    <string name="edge_gestures_summary">Навигация с использованием жестов от края</string>
 </resources>
