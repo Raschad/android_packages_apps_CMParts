@@ -531,10 +531,4 @@
     <string name="touchscreen_gesture_action_next_track">Перейти к следующему треку</string>
     <string name="touchscreen_gesture_action_volume_down">Уменьшить громкость</string>
     <string name="touchscreen_gesture_action_volume_up">Увеличить громкость</string>
-
-    <string name="gesture_settings_title">Жесты</string>
-    <string name="gesture_settings_info">Панель навигации должна быть отключена!\n\nДоступные жесты:\n\n«Назад»\n- смахивание вверх слева или справа\n\n«Домой»\n- смахивание вверх по центру экрана\n\n«Недавние приложения»\n- смахивание вверх по центру экрана и удержание\n\Долгое нажатие «Домой»\n- Короткое смахивание вверх и удержание в центре</string>
-    <string name="use_bottom_gesture_title">Жесты навигации</string>
-    <string name="use_bottom_gesture_summary">Использование жестов свайп вверх для навигации</string>
-
 </resources>

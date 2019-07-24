@@ -19,12 +19,6 @@
         android:key="button_settings"
         android:title="@string/button_pref_title">
 
-    <PreferenceScreen
-        android:key="gesture_settings"
-        android:icon="@drawable/ic_settings_gestures_omni"
-        android:title="@string/gesture_settings_title"
-        android:fragment="org.cyanogenmod.cmparts.gestures.GestureSettings" />
-
     <SwitchPreference
         android:key="disable_nav_keys"
         android:title="@string/disable_navkeys_title"
