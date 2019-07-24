@@ -280,6 +280,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 // Remove keys that can be provided by the navbar
                 updateDisableNavkeysOption();
                 mNavigationPreferencesCat.setEnabled(mDisableNavigationKeys.isChecked());
+                mEdgeGestures.setEnabled(!mDisableNavigationKeys.isChecked());
                 updateDisableNavkeysCategories(mDisableNavigationKeys.isChecked());
             }
         } else {
