@@ -56,11 +56,10 @@ public class EdgeGesturesSettings extends SettingsPreferenceFragment implements
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == enabledPreference) {
             boolean enabled = ((Boolean)newValue);
-            Settings.Secure.putIntForUser(getContentResolver(),
-                    Settings.Secure.NAVIGATION_BAR_VISIBLE,
+            CMSettings.Global.getInt(getActivity().getContentResolver(),
+                    CMSettings.Global.DEV_FORCE_SHOW_NAVBAR,
                     enabled ? 0 : (ActionUtils.hasNavbarByDefault(
-                                      getActivity().getApplicationContext()) ? 1 : 0),
-                                      UserHandle.USER_CURRENT);
+                                      getActivity().getApplicationContext()) ? 1 : 0));
             return true;
         }
         return false;
